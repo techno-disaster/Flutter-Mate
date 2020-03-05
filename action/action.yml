@@ -1,2 +1,5 @@
 name: 'Flutter Mate'
 description: ' This action provides flutter for Github Actions.'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
